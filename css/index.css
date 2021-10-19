@@ -1,0 +1,116 @@
+html{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Light";
+}
+
+header{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100px;
+    font-size: 40px;
+    color: red;
+    background-color: #00bf72;
+
+}
+
+h1{
+    font-size: 30px;
+    color: red;
+
+
+}
+
+h2{
+
+    font-size: 20px;
+    color: violet;
+
+}
+
+.content{
+    height: 1000px;
+}
+
+nav{
+    width: 200px;
+    height: 500px;
+
+}
+
+section{
+    margin: 0;
+
+
+}
+
+section .article1{
+    position: absolute;
+    top: 200px;
+    margin-left: 500px;
+}
+
+section .article2{
+    top: -300px;
+    margin-left: 500px;
+    position: relative;
+}
+
+section .article3{
+    top: -200px;
+    margin-left: 500px;
+    position: relative;
+}
+
+.article1 p {
+    color: red;
+    font-family: "Roboto Light";
+    font-size: 12px;
+
+}
+.article2 p {
+    color: black;
+    font-family: "Roboto Light";
+    font-size: 16px;
+
+}
+.article3 p {
+    color: blue;
+    font-family: "Roboto Light";
+    font-size: 18px;
+
+}
+
+aside{
+    font-size: 30px;
+    font-family: "Roboto Light";
+    color: red;
+    top: -350px;
+    margin-left: 1500px;
+    position: relative;
+}
+
+.caixa{
+    top: -200px;
+    margin-left: 700px;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    border: 15px solid green;
+    padding: 50px;
+
+}
+footer{
+    font-size: 40px;
+    color: red;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 200px;
+
+    background-image: linear-gradient(to bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
